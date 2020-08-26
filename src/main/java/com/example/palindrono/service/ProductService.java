@@ -8,5 +8,6 @@ import org.springframework.context.annotation.Bean;
 public interface ProductService {
 
     public List<ProductItem> getByBrand(String name);
+    public List<ProductItem> getAll();
 
 }
